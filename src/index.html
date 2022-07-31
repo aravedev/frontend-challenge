@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../dist/main.css" />
+    <title>Challenge 1</title>
+  </head>
+  <body>
+    <div class="container h-screen lg:max-w-4xl flex items-center mx-auto">
+      <div
+        class="flex flex-col md:flex-row justify-center items-center h-screen md:h-3/4 md:rounded-lg"
+      >
+        <div class="md:w-1/2">
+          <img
+            src="../images/image-product-mobile.jpg"
+            alt=""
+            class="max-w-sm md:hidden rounded-t-lg"
+          />
+          <img
+            src="../images/image-product-desktop.jpg"
+            alt=""
+            class="max-w-sm hidden md:flex md:rounded-tl-lg md:rounded-bl-lg"
+          />
+        </div>
+        <div class="w-3/4 mt-4 space-y-5 md:w-1/2 md:ml-5 md:p-8">
+          <div class="md:w-3/4 space-y-5">
+            <span
+              class="space-x-2 tracking-letterS text-sm text-subtitleColor md:text-lg md:py-2"
+              >PERFUME</span
+            >
+            <h1 class="h1ExtraClass text-4xl text-gray-800 md:py-2 md:text-5xl">
+              Gabrielle Essence Eau De Parfum
+            </h1>
+            <p class="text-md text-paragraphColor md:py-2">
+              A floarl, solar and voluptuous interpretation composed by Oliver
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+          </div>
+          <div class="pt-5 space-x-7 flex items-center md:py-2">
+            <span class="text-4xl text-priceColorGreen font-bold">$149.99</span>
+            <span class="text-paragraphColor"><s> $169.99</s></span>
+          </div>
+          <div>
+            <button
+              class="bg-btnGreen mb-2 w-full px-6 py-3.5 text-white text-md leading-normal rounded hover:bg-hoverGreenColor transition duration-150 flex justify-center items-center space-x-3 font-bold"
+            >
+              <img src="../images/icon-cart.svg" alt="" />
+              <p>Add to Cart</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
